@@ -1,7 +1,7 @@
 <?php
-$nome = addslashes($_POST['name']);
+$nome = addslashes($_POST['nome']);
     $email = addslashes($_POST['email']);
-    $mensagem = addslashes($_POST['message']);
+    $mensagem = addslashes($_POST['mensagem']);
 
     // Defina o endereço de e-mail para onde deseja enviar os dados do formulário
     $to = "christianfelix.timoteo3@gmail.com";
