@@ -3,18 +3,107 @@
     font-family: arial;
     color: white;
 }
+body{
+    background-color: black;
+}
 .container{
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
-    border:1px solid red ;
-    height: 650px;
+    background-image: linear-gradient(90deg, blue, black,black,black,black,blue);
+    border:1px solid blue;
+    height: 900px;
+
 }
 .form{
-    width: 600px;
-    height: 400px;
+    width: 800px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: auto;
+    font-size: 20px;
+    background-color: #0592ca;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    
+}
+#nome , #email, #ft,
+#telefone , #mensagem{
+    
+
+    outline:0;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+#nome , #email, 
+#telefone , #mensagem{
+    color:black;
+    font-family: Arial;
     font-size: 16px;
-    background-color: #777;
-    padding: 50px;
+}
+#nome{
+    padding: 20px;
+    width: 600px;
+    height: 40px;
+}
+#email{
+    padding: 20px;
+    width: 600px;
+    height: 40px;
+}
+#telefone{
+    padding: 20px;
+    width: 300px;
+    height: 40px;
+}
+#ft{
+    background-color: rgb(39, 105, 247);
+    padding: 5px;
+    margin-bottom: 20px;
+}
+#mensagem{
+    padding-top: 10px;
+    padding-left: 10px;
+    color: black;
+    width: 600px;
+    height: auto;
+    resize: none;
+}
+#bot{
+    width: 100px;
+    font-family: arial;
+    font-weight: bold;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border-radius: 10px;
+    background-color: rgb(39, 105, 247);
+    border: 1px solid black;
+    color: white;
+}
+#bot:hover{
+    width: 100px;
+    font-family: arial;
+    font-weight: bold;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    background-color: rgb(43, 43, 238);
+    color: white;
+   
+}
+#termos{
+   
+}
+.termoslink{
+    
+    text-decoration:none;
+    color:black;
+}
+.termoslink:hover{
+    text-decoration: underline;
+    color: rgb(118, 7, 245);
+
 }
